@@ -2,14 +2,13 @@
 
 // Short summery in operator. 2 + 2, Now + is operator & 2 is operand.
 
-// 6 Types operator in javascript.
+// 4 Types operator in javascript.
 
 /*
     #1 Arithmentic Operator.
     #2 Comparison Operator.
     #3 Logical / Relational Operator.
-    #4 Assignment Operator.
-    #5 Conditional / Ternary Operator.
+    #4 Conditional / Ternary Operator.
 */
 
 // ----------------------------------------------------------------------------------
@@ -53,14 +52,14 @@ decrementResult--;
 
 // #2 COMPARISON OPERATOR IN 8 TYPES. (==, !=, ===,!== >, <, >=, <=) Note: comparison operator always return result TRUE or FALSE.
 /*
-    #1 DOUBLE EQUAL (==)
-    #2 NOT EQUAL (!=)
-    #3 TRIPPLE EQUAL (===)
-    #4 TRIPPLE NOT EQUAL (!==)
-    #5 GREATER THEN (>)
-    #6 LESS THEN (<)
-    #7 BIG OR EQUAL (>=)
-    #8 SMALL OR EQUAL (<=)
+    #1 Double Equal (==)
+    #2 Not Equal (!=)
+    #3 Tripple Equal (===)
+    #4 Tripple Not Equal (!==)
+    #5 Greater Then (>)
+    #6 Less then (<)
+    #7 Big Or Equal (>=)
+    #8 Small Or Equal (<=)
 */
 
 // #1 DOUBLE EQUAL (==) Note: Double equal alawys check only value.
@@ -98,5 +97,32 @@ const smallEqualResult = smallEqual <= 100;
 // ----------------------------------------------------------------------------------
 
 
-// #3 LOGICAL / RELATIONAL OPERATOR IN 3 TYPES.
+// #3 LOGICAL / RELATIONAL OPERATOR IN 3 TYPES. (&&, ||, !)
+/*
+    #1 And (&&)
+    #2 Or (||)
+    #3 Not (!)
+*/
 
+// #1 AND (&&)  Note: (&&) operator use one more or more expression.If any one has false she return false, and if true all expression return true.
+const firstL = true;
+const secondL = true;
+const thirdL = false;
+
+// #2 OR (||)   Note: (||) operator use one more or more expression.If any one has true she return true, and if false all expression return false.
+const firstOr = true;
+const secondOr = false;
+const thirdOr = false;
+
+// #3 NOT (!)   Note: (!) operator mean positive value made negetive.
+const notResult = !true;
+
+// ----------------------------------------------------------------------------------
+
+// #4 CONDITION / TERNARY OPERATOR IN 1 TYPE. (? :)
+/*
+    # Question Symbol and Colon. (? :)
+*/
+const wow = true;
+const wow1 = false;
+console.log(true ? wow1:wow)
