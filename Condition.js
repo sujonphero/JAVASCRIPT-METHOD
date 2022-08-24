@@ -61,4 +61,23 @@ switch (myTown) {
         break;
     default:
         console.log('Ami rohinga')
+} // ONE
+
+
+const roll = 10;
+switch (roll){
+    case 2:
+        console.log('sujon')
+        break
+    case 4:
+        console.log('sheikh')
+        break
+    case 7:
+        console.log('sojeeb')
+        break
+    case 10:
+        console.log('jannatul naim')
+        break
+    default:
+        console.log('not found student')
 }
