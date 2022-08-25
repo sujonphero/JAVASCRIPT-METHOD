@@ -65,7 +65,7 @@ switch (myTown) {
 
 
 const roll = 10;
-switch (roll){
+switch (roll){ // Two
     case 2:
         console.log('sujon')
         break
