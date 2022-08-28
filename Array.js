@@ -83,6 +83,7 @@ console.log(peaple)
 const public = ['hasibul', 'sujon', 'jihde', 'reaj'];
 const result = public.indexOf('sujon');
 console.log(result)
+// Note: if any element search an indexOf and this array element already numbers result -1 [-1 mean this element never stay an array].
 
 // -----------------------------------------------------------------------------------
 
