@@ -16,3 +16,13 @@ const arrowFunction = () =>{
     }
 }
 arrowFunction('bd', 'uk', 'cn', 'nk')
+
+// -------------------------------------------------------------------------
+
+// REST -- explore rest perametter.
+const restExplore = (...anything)=>{
+    for(let i = 0; i < anything.length; i++){
+        console.log('explore ' + anything[i])
+    }
+}
+restExplore('mango', 'lychee', 'apple', 'orange')

@@ -1,4 +1,4 @@
-// ES5 for loop.
+// ES5 ForEach.
 
 // where i should use for of and for in.
 
